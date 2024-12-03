@@ -13,8 +13,10 @@ chatImg.addEventListener("click", () => {
     chatImg.src = "images/cross.svg";
   } else {
     chatImg.src = "images/chatbot.svg";
+    }
   }
-});
+  
+);
 
 select.addEventListener("click", () => {
   options.classList.toggle("active-options");
@@ -134,8 +136,25 @@ function takeCommand(message) {
   }else if(message.includes("date")){
     let date = new Date().toLocaleString(undefined,{day:"numeric",month:"short"} );
     speak(date);
+  }else if(message.includes("back")){
+    speak("okay sir, back workout");
+    window.open("https://fit-club-banta.vercel.app/back.html","_self");
+  }else if(message.includes("bicep")|| message.includes("tricep")){
+    speak("okay sir, bicep workout with triceps included");
+    window.open("https://fit-club-banta.vercel.app/biceps-triceps.html","_self");
+  }else if(message.includes("chest")){
+    speak("okay sir, chest workout");
+    window.open("https://fit-club-banta.vercel.app/chest.html","_self");
+  }else if(message.includes("leg")|| message.includes("legs")){
+    speak("okay sir, legs workout");
+    window.open("https://fit-club-banta.vercel.app/leg.html","_self");
+  }else if(message.includes("shoulder")){
+    speak("okay sir, shoulder workout");
+    window.open("https://fit-club-banta.vercel.app/shoulder.html","_self");
+  }else if(message.includes("workout")|| message.includes("workouts")){
+    speak("okay sir, back workout");
+    window.open("https://fit-club-banta.vercel.app/workout.html","_self");
   }
-
 }
 
 
