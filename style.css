@@ -22,6 +22,12 @@ body {
   
 }
 
+@media (max-width:399px){
+  .body {
+    overflow-x: hidden;
+  }
+}
+
 
 nav {
   width: 100%;
@@ -148,6 +154,8 @@ main {
   .chat-box {
     width:75%;
     border-radius: 20px;
+    transform: translate(300px);
+    transition: all 0.5s;
   }
 }
 
