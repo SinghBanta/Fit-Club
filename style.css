@@ -279,7 +279,7 @@ main {
 
 
 /* Styles for small screens (up to 399px) */
-@media (max-width: 399px) {
+@media (max-width: 360px) {
 
   /* body{
     width: 100%;
@@ -290,8 +290,8 @@ main {
     display:none;
   }
   .chat-box {
-    width: 79%;
-    height: 500px;
+    width: 77%;
+    height: 410px;
     bottom: 12%;
     right: 4%;
   }
