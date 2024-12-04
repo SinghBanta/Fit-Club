@@ -294,7 +294,7 @@ main {
     height: 410px;
     bottom: 12%;
     right: 4%;
-    transform: translate(260px);
+    transform: translate(300px);
     transition: all 0.5s;
   }
   .active-chat-box {
@@ -332,78 +332,3 @@ main {
 
 }
 
-/* Styles for medium screens (400px to 1199px) */
-@media (min-width: 400px) and (max-width: 1199px) {
-  .example-class {
-    font-size: 20px;
-    padding: 20px;
-  }
-}
-
-/* Styles for large screens (1200px and above) */
-@media (min-width: 1200px) {
-
-  .select-box{
-    width:180px;
-    height: 150px;
-    right:5%;
-    
-    
-  }
-
-  .select-heading img{
-    margin-left: 30px;
-    align-items: center;
-  }
-  .select-heading{
-    display:block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-
-  }
-  .chat-box {
-    width: 30%;
-    height: 500px;
-    bottom: 12%;
-    right: 4%;
-  }
-  .input-area {
-    left:20px;
-    gap:10px;
-    
-  }
-  .prompt{
-    height:40%;
-    border-radius: 30px;
-  }
-
-  .input-area button {
-    padding:10px;
-  }
-  .virtual-assistant img{
-    width: 190px;
-  }
-  .logo{
-    font-size: 50px;
-  }
-  #chatbotimg{
-    width: 50px;
-  }
- 
-  #voice{
-    width: 140px;
-  
-  } 
-  .user-chat-box {
-    width: 85%;
-    padding: 30px;
-    font-size: 24px;
-  }
-  .ai-chat-box {
-    width: 70%;
-    padding:30px;
-    font-size: 24px;
-  }
-}
