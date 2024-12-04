@@ -155,7 +155,7 @@ function takeCommand(message) {
     speak("okay sir, shoulder workout");
     window.open("https://fit-club-banta.vercel.app/shoulder.html","_self");
   }else if(message.includes("workout")|| message.includes("workouts")){
-    speak("okay sir, back workout");
+    speak("okay sir, all workout");
     window.open("https://fit-club-banta.vercel.app/workout.html","_self");
   }
 }
