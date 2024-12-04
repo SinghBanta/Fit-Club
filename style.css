@@ -279,7 +279,7 @@ main {
 
 
 /* Styles for small screens (up to 399px) */
-@media (min-width: 360px) {
+@media (min-width: 399px) {
 
  
   .select-heading{
