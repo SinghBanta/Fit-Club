@@ -17,17 +17,9 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow-x: hidden;
-  
-  
+  background-color: rgba(0, 0, 0, 0.933);
   
 }
-
-@media (max-width:360px){
-  .body {
-    overflow-x: hidden;
-  }
-}
-
 
 nav {
   width: 100%;
@@ -43,12 +35,6 @@ nav {
 .logo {
   color: aliceblue;
   font-size: 40px;
-}
-
-@media (max-width: 360px){
-   .logo{
-    font-size: 22px;
-   }
 }
 
 a {
@@ -73,12 +59,6 @@ a {
   border-radius: 20px;
   cursor: pointer;
   
-}
-
-@media (max-width:360px){
-  .select-heading {
-    display:none;
-  }
 }
 
 .select-heading img {
@@ -150,15 +130,6 @@ main {
   
 }
 
-@media (max-width:360px){
-  .chat-box {
-    width:75%;
-    border-radius: 20px;
-    transform: translate(300px);
-    transition: all 0.5s;
-  }
-}
-
 .active-chat-box {
   transform: translate(0px);
 }
@@ -182,15 +153,8 @@ main {
   gap: 20px;
   position: fixed;
   bottom: 0;
-}
-
-@media (max-width:360px){
-  .input-area {
-    top: 84%;
-    right: 0px;
-    gap: 1px;
-    
-  }
+  
+ 
 }
 
 .prompt {
@@ -204,26 +168,11 @@ main {
   margin-left: 3px;
 }
 
-@media (max-width:360px){
-  .prompt {
-    height: 36px;
-    border-radius: 20px;
-  }
-}
-
-
-
 .input-area button {
   padding: 9px;
   background-color: black;
   border: none;
   border-radius: 50px;
-}
-
-@media (max-width:360px){
-  .input-area button {
-    padding: 4px;
-  }
 }
 
 .user-chat-box {
@@ -251,21 +200,8 @@ main {
   text-align: center;
 }
 
-@media (max-width:360px){
-  .h1 {
-    font-size: 20px;
-  }
-}
-
 #chatbotimg {
   cursor: pointer;
-  
-}
-
-@media (max-width: 360px){
-  #chatbotimg{
-   width: 10%;
-}
 }
 
 .options a {
@@ -316,13 +252,6 @@ main {
   cursor:pointer;
 }
 
-@media (max-width:360px){
-  .virtual-assistant img{
-    width:50px;
-  }
-
-}
-
 .speak-page{
   position:absolute;
   width:100%;
@@ -349,11 +278,5 @@ main {
   margin-top:30px ;
   border-radius: 50%;
 } 
-
-@media (max-width:360px){
-  #voice {
-    width:110px;
-  }
-}
 
 
