@@ -279,14 +279,11 @@ main {
 
 
 /* Styles for small screens (up to 399px) */
-@media (min-width: 360px) {
+@media (max-width: 399px) {
 
  
   .select-heading{
     display:none;
-   
-   
-   
   }
   .chat-box {
     width: 80%;
