@@ -281,10 +281,10 @@ main {
 /* Styles for small screens (up to 399px) */
 @media (max-width: 399px) {
 
-  body{
+  /* body{
     width: 100%;
     height: 97vh;
-  }
+  } */
 
   .select-heading{
     display:none;
@@ -334,7 +334,7 @@ main {
 }
 
 /* Styles for large screens (1200px and above) */
-@media (min-width: 2560px) {
+@media (min-width: 1200px) {
 
   .select-box{
     width:180px;
