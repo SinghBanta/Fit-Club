@@ -22,7 +22,7 @@ body {
   
 }
 
-@media (max-width:399px){
+@media (max-width:360px){
   .body {
     overflow-x: hidden;
   }
@@ -45,7 +45,7 @@ nav {
   font-size: 40px;
 }
 
-@media (max-width: 399px){
+@media (max-width: 360px){
    .logo{
     font-size: 22px;
    }
@@ -75,7 +75,7 @@ a {
   
 }
 
-@media (max-width:399px){
+@media (max-width:360px){
   .select-heading {
     display:none;
   }
@@ -150,7 +150,7 @@ main {
   
 }
 
-@media (max-width:399px){
+@media (max-width:360px){
   .chat-box {
     width:75%;
     border-radius: 20px;
@@ -184,7 +184,7 @@ main {
   bottom: 0;
 }
 
-@media (max-width:399px){
+@media (max-width:360px){
   .input-area {
     top: 84%;
     right: 0px;
@@ -204,7 +204,7 @@ main {
   margin-left: 3px;
 }
 
-@media (max-width:399px){
+@media (max-width:360px){
   .prompt {
     height: 36px;
     border-radius: 20px;
@@ -220,7 +220,7 @@ main {
   border-radius: 50px;
 }
 
-@media (max-width:399px){
+@media (max-width:360px){
   .input-area button {
     padding: 4px;
   }
@@ -251,7 +251,7 @@ main {
   text-align: center;
 }
 
-@media (max-width:399px){
+@media (max-width:360px){
   .h1 {
     font-size: 20px;
   }
@@ -262,7 +262,7 @@ main {
   
 }
 
-@media (max-width: 399px){
+@media (max-width: 360px){
   #chatbotimg{
    width: 10%;
 }
@@ -316,7 +316,7 @@ main {
   cursor:pointer;
 }
 
-@media (max-width:399px){
+@media (max-width:360px){
   .virtual-assistant img{
     width:50px;
   }
@@ -350,7 +350,7 @@ main {
   border-radius: 50%;
 } 
 
-@media (max-width:399px){
+@media (max-width:360px){
   #voice {
     width:110px;
   }
