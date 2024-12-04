@@ -56,6 +56,7 @@ a {
   justify-content: space-between;
   border-radius: 20px;
   cursor: pointer;
+  
 }
 
 .select-heading img {
@@ -124,6 +125,7 @@ main {
   padding: 10px;
   transform: translate(800px);
   transition: all 0.5s;
+  
 }
 
 .active-chat-box {
@@ -138,6 +140,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  
 }
 
 .input-area {
@@ -148,6 +151,8 @@ main {
   gap: 20px;
   position: fixed;
   bottom: 0;
+  
+ 
 }
 
 .prompt {
@@ -223,6 +228,7 @@ main {
   bottom:20%;
   background-color: rgba(255 ,255, 255, 0.603);
   backdrop-filter: blur(5px);
+  
 }
 
 
@@ -270,3 +276,126 @@ main {
   margin-top:30px ;
   border-radius: 50%;
 } 
+
+
+/* Styles for small screens (up to 399px) */
+@media (min-width: 360px) {
+
+ 
+  .select-heading{
+    display:none;
+   
+   
+   
+  }
+  .chat-box {
+    width: 80%;
+    height: 500px;
+    bottom: 12%;
+    right: 4%;
+  }
+  .input-area {
+    left:0;
+    gap:1px;
+  }
+  .virtual-assistant img{
+    width: 50px;
+  }
+  .logo{
+    font-size: 20px;
+  }
+  #chatbotimg{
+    width: 20px;
+  }
+ 
+  #voice{
+    width: 140px;
+  
+  } 
+  .user-chat-box {
+    width: 65%;
+  }
+  .ai-chat-box {
+    width: 65%;
+  }
+  
+
+
+
+}
+
+/* Styles for medium screens (400px to 1199px) */
+@media (min-width: 400px) and (max-width: 1199px) {
+  .example-class {
+    font-size: 20px;
+    padding: 20px;
+  }
+}
+
+/* Styles for large screens (1200px and above) */
+@media (min-width: 1200px) {
+
+  .select-box{
+    width:180px;
+    height: 150px;
+    right:5%;
+    
+    
+  }
+
+  .select-heading img{
+    margin-left: 30px;
+    align-items: center;
+  }
+  .select-heading{
+    display:block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+  }
+  .chat-box {
+    width: 30%;
+    height: 650px;
+    bottom: 12%;
+    right: 4%;
+  }
+  .input-area {
+    left:20px;
+    gap:10px;
+    
+  }
+  .prompt{
+    height:50%;
+    border-radius: 30px;
+  }
+
+  .input-area button {
+    padding:18px;
+  }
+  .virtual-assistant img{
+    width: 190px;
+  }
+  .logo{
+    font-size: 50px;
+  }
+  #chatbotimg{
+    width: 50px;
+  }
+ 
+  #voice{
+    width: 140px;
+  
+  } 
+  .user-chat-box {
+    width: 85%;
+    padding: 30px;
+    font-size: 24px;
+  }
+  .ai-chat-box {
+    width: 70%;
+    padding:30px;
+    font-size: 24px;
+  }
+}

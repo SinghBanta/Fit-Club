@@ -136,6 +136,9 @@ function takeCommand(message) {
   }else if(message.includes("date")){
     let date = new Date().toLocaleString(undefined,{day:"numeric",month:"short"} );
     speak(date);
+  }else if(message.includes("homepage")){
+    speak("okay sir, going to home page");
+    window.open("https://fit-club-banta.vercel.app/index.html","_self");
   }else if(message.includes("back")){
     speak("okay sir, back workout");
     window.open("https://fit-club-banta.vercel.app/back.html","_self");
