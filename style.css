@@ -142,6 +142,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 20px;
+
   
 }
 
@@ -151,7 +152,7 @@ main {
   display: flex;
   align-items: center;
   gap: 20px;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   
  
@@ -283,96 +284,55 @@ main {
 
 
 
-@media (max-width: 420px) {
+/* Responsive Design */
+@media (max-width: 412px) {
 
-  .body{
-    overflow: hidden;
-  }
+ 
   .select-box {
     width: 120px;
     right: 10px;
   }
 
   .logo {
-    font-size: 32px;
+    font-size: 30px;
   }
 
-  .select-heading {
-    font-size: 14px;
-    padding: 6px;
-    display: none;
-  }
-
-  .options {
-    font-size: 14px;
-    padding: 6px;
+  .select-heading{
+    display:none;
   }
 
   .chat-box {
-    width: 70%;
-    height: 70%;
+    width: 74%;
+    height: 65%;
     right: 5%;
     bottom: 5%;
-    overflow: hidden;
   }
 
   .input-area {
-    top: 82%;
-    gap: 10px;
+    width: 97%;
+    top: 83%;
+    gap: 5px;
   }
 
   .prompt {
-    width: 74%;
+    width: 78%;
     font-size: 14px;
   }
 
   .input-area button {
-    padding: 5px;
+    padding: 6px;
+    font-size: 12px;
   }
 
-  .user-chat-box, .ai-chat-box {
-    width: 95%;
-    padding: 10px;
+  .user-chat-box,
+  .ai-chat-box {
+    width: 64%;
+    padding: 8px;
   }
-
-  .h1 {
-    font-size: 5vw;
+  .virtual-assistant img{
+    width:50px;
   }
-
-  .bgtext {
-    font-size: 20vw;
-  }
-
-  .svgs {
-    width: 90%;
-    height: 40%;
-    right: 5%;
-    bottom: 5%;
-  }
-
-  .svgs img {
-    width: 250px;
-  }
-
-  .virtual-assistant img {
-    width: 20%;
-  }
-
-  .speak-page {
-    gap: 5px;
-  }
-
-  .speak-page h1 {
-    font-size: 20px;
-  }
-
-  #voice {
-    width: 100px;
-    height: 100px;
-  }
-
-  #chatbotimg {
-    width: 32px;
+  #chatbotimg{
+    width:30px;
   }
 }
-
