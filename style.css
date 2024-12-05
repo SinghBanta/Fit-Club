@@ -285,9 +285,9 @@ main {
 
 
 /* Responsive Design */
-@media (max-width: 412px) {
+@media (max-width: 399px) {
 .body{
-  overflow: hidden;
+  overflow: auto;
 }
  
   .select-box {
