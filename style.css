@@ -281,3 +281,98 @@ main {
 } 
 
 
+
+
+@media (max-width: 420px) {
+
+  .body{
+    overflow: hidden;
+  }
+  .select-box {
+    width: 120px;
+    right: 10px;
+  }
+
+  .logo {
+    font-size: 32px;
+  }
+
+  .select-heading {
+    font-size: 14px;
+    padding: 6px;
+    display: none;
+  }
+
+  .options {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .chat-box {
+    width: 70%;
+    height: 70%;
+    right: 5%;
+    bottom: 5%;
+    overflow: hidden;
+  }
+
+  .input-area {
+    top: 82%;
+    gap: 10px;
+  }
+
+  .prompt {
+    width: 74%;
+    font-size: 14px;
+  }
+
+  .input-area button {
+    padding: 5px;
+  }
+
+  .user-chat-box, .ai-chat-box {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .h1 {
+    font-size: 5vw;
+  }
+
+  .bgtext {
+    font-size: 20vw;
+  }
+
+  .svgs {
+    width: 90%;
+    height: 40%;
+    right: 5%;
+    bottom: 5%;
+  }
+
+  .svgs img {
+    width: 250px;
+  }
+
+  .virtual-assistant img {
+    width: 20%;
+  }
+
+  .speak-page {
+    gap: 5px;
+  }
+
+  .speak-page h1 {
+    font-size: 20px;
+  }
+
+  #voice {
+    width: 100px;
+    height: 100px;
+  }
+
+  #chatbotimg {
+    width: 32px;
+  }
+}
+
