@@ -222,7 +222,7 @@ main {
 }
 
 .svgs{
-  width: 60%;
+  width: 75%;
   height: 60%;
   display:flex;
   align-items: center;
@@ -348,20 +348,18 @@ main {
     width:100px;
   }
   .svgs{
-    width: 100%;
+    width: 80%;
     height: 50%;
     bottom:30%;
     gap:5px;
     left:10%;
   }
-
-  
-
-  body{
-    background-image: url(images/gym-women-trainer-fitness-with-black-background_73899-15254.avif);
+  .svgs img{
+    width: 200px;
   }
-
-  
+  body{
+    background-image: url(images/gym-women-trainer-fitness-with-black-background_73899-15254.avif)
+  }
   
 
  
